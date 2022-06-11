@@ -1,0 +1,50 @@
+.subtitle {
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.meanings {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    /* align-content: center; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 10px solid rgb(105, 105, 105);
+    border-radius: 10px;
+    padding: 10px 20px;
+    scrollbar-width: thin;
+    height: 55vh;
+    z-index: 10;
+    background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+}
+
+.audio {
+    width: 95%;
+    
+    margin: 10px auto;
+}
+
+/* .singleMeaning {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    width: 23%;
+} */
+
+
+@media (max-width: 900px) {
+
+    /* .singleMeaning {
+        width: 95%;
+    } */
+
+    .subtitle {
+        font-size: 5vw;
+    }
+}
+

@@ -1,0 +1,15 @@
+.singleMeaning {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    width: 23%;
+}
+
+@media (max-width: 900px) {
+    .singleMeaning {
+        width: 95%;
+    }
+}
+

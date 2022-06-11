@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 35vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.title {
+    font-size: 5vw;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    background: -webkit-linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.select, .search {
+    width: 43%;
+}
+
+@media (max-width: 900px) {
+    .header {
+        height: 25vh;
+    }
+
+    .title {
+        font-size: 10vw;
+    }
+}
